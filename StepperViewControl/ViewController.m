@@ -145,7 +145,7 @@
     
     NSInteger max = maxRange.text.integerValue;
     NSInteger min = minRange.text.integerValue;
-    
+
     
     if ([operation isEqualToString:@"+"] && labelValue < max){
         currentNumber.text = [NSString stringWithFormat:@"%ld",(labelValue+1)];
