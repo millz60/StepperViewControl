@@ -114,6 +114,7 @@
     minRange.layer.cornerRadius = 5;
     minRange.layer.masksToBounds = YES;
     minRange.textAlignment = NSTextAlignmentCenter;
+    minRange.keyboardType = UIKeyboardTypeNumberPad;
     
     maxRange = [[UITextField alloc] initWithFrame:CGRectMake(((screenWidth/4)*3)-33, (screenHeight/4)*2.5-20, 66, 40)];
     maxRange.text = @"10";
@@ -122,6 +123,7 @@
     maxRange.layer.cornerRadius = 5;
     maxRange.layer.masksToBounds = YES;
     maxRange.textAlignment = NSTextAlignmentCenter;
+    maxRange.keyboardType = UIKeyboardTypeNumberPad;
     
     [self.view addSubview:maxRange];
     [self.view addSubview:minRange];
@@ -147,10 +149,14 @@
     
     if ([operation isEqualToString:@"+"] && labelValue < max){
         currentNumber.text = [NSString stringWithFormat:@"%ld",(labelValue+1)];
+        [maxRange resignFirstResponder];
+        [minRange resignFirstResponder];
         
     }
     else if ([operation isEqualToString:@"-"] && labelValue > min){
         currentNumber.text = [NSString stringWithFormat:@"%ld",(labelValue-1)];
+        [maxRange resignFirstResponder];
+        [minRange resignFirstResponder];
     }
     
 
