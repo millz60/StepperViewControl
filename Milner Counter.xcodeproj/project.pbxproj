@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9E79A3F1D1B0205005FC48E /* Build configuration list for PBXProject "StepperViewControl" */;
+			buildConfigurationList = C9E79A3F1D1B0205005FC48E /* Build configuration list for PBXProject "Milner Counter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -294,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9E79A3F1D1B0205005FC48E /* Build configuration list for PBXProject "StepperViewControl" */ = {
+		C9E79A3F1D1B0205005FC48E /* Build configuration list for PBXProject "Milner Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9E79A591D1B0205005FC48E /* Debug */,

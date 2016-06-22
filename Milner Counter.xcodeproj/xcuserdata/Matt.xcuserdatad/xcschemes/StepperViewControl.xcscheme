@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C9E79A431D1B0205005FC48E"
                BuildableName = "StepperViewControl.app"
                BlueprintName = "StepperViewControl"
-               ReferencedContainer = "container:StepperViewControl.xcodeproj">
+               ReferencedContainer = "container:Milner Counter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "C9E79A431D1B0205005FC48E"
             BuildableName = "StepperViewControl.app"
             BlueprintName = "StepperViewControl"
-            ReferencedContainer = "container:StepperViewControl.xcodeproj">
+            ReferencedContainer = "container:Milner Counter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "C9E79A431D1B0205005FC48E"
             BuildableName = "StepperViewControl.app"
             BlueprintName = "StepperViewControl"
-            ReferencedContainer = "container:StepperViewControl.xcodeproj">
+            ReferencedContainer = "container:Milner Counter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "C9E79A431D1B0205005FC48E"
             BuildableName = "StepperViewControl.app"
             BlueprintName = "StepperViewControl"
-            ReferencedContainer = "container:StepperViewControl.xcodeproj">
+            ReferencedContainer = "container:Milner Counter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

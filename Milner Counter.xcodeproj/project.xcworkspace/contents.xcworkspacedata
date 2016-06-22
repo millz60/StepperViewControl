@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:StepperViewControl.xcodeproj">
+      location = "self:/Users/Matt/Documents/Projects/StepperViewControl/Milner Counter.xcodeproj">
    </FileRef>
 </Workspace>
